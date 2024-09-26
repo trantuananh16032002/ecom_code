@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: "Satoshi";
+}
+h1,h2{
+    font-family: 'FONTSPRING DEMO - Integral CF';
+}
+.container{
+    max-width: 1240px
+}
+a{
+	text-decoration: none;
+    color: #000000
+}
+/* ============================Banner================================= */
+.banner{
+    height: 38px;
+    background-color: antiquewhite;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #ffffff;
+    font-weight: 400;
+}
+.banner span{
+    text-decoration: underline;
+    margin-left: 5px;
+    font-weight: 500;
+}
+/* ============================Header================================= */
+.header{
+    height: 96px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    
+}
+.header .navbar{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 96px;   
+    width: 100%;
+    height: 100%;
+}
+.header .navbar ul{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 22px;
+    align-items: center;
+    /* background-color: blue; */
+}
+.header .navbar .action{
+    margin-left: auto;
+    /* background-color: aquamarine; */
+}
+.header .navbar .action img{
+    width: 24px;
+    height: 24px;
+}
+/* .header .navbar .action .first{
+    margin-right: 14px;
+} */
+.header .navbar .action img{
+    margin-left: 10px;
+}
+.header .navbar ul li{
+    margin-right: 24px;
+}
+.header .navbar ul li:last-child{
+    margin-right: 0px;
+}
+.navbar ul li:first-child img{
+    transform: translateY(-2px);
+}
+.navbar .search{
+    display: flex;
+    align-items: center;
+    width: 577px;
+    height: 48px;
+    position: relative;
+}
+.navbar input{
+    width: 577px;
+    background-color: #F0F0F0;
+    height: 50px;
+    border-radius: 62px;
+    display: flex;
+    align-items: center;
+    padding-left: 48px;
+    padding-right: 16px;
+    border: none;
+}
+.navbar .search img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 16px;
+    top: 12px;
+}
+/* none */
+.header .navbar .mega-menu .menu{
+    display: none;
+}
+.header .navbar .action .action-one{
+    display: none;
+}
+/* ============================Hero================================= */
+.hero-wrap{
+    /* max-height: 663px; */
+    /* background-image: url(../imgs/hero.svg); */
+    padding-top: 103px;
+    padding-bottom: 116px;
+    position: relative;
+    background: #F2F0F1;
+
+}
+/* LEFT */
+.hero-wrap .hero-position{
+    background-color: aquamarine;
+}
+.hero-wrap .hero-position .hero-position-title{
+    font-weight: 700;
+    font-size: 6.4rem;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.hero-wrap .hero-position .hero-position-description{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #00000099;
+    margin-bottom: 32px;
+}
+.hero-wrap .hero-position .hero-position-btn{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 16px 54px 16px 54px;
+    border-radius: 62px;
+    width: 210px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin-bottom: 48px;
+}
+.hero-wrap .hero-position .hero-position-btn a{
+    color: #ffffff;
+}
+.hero-wrap .hero-position .hero-position-info{
+    max-width: 596px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blueviolet; */
+    justify-content: space-between;
+}
+/* .hero-wrap .hero-position .hero-position-info .hero-position-info_item{
+    
+} */
+.hero-wrap .hero-position .hero-position-info .hero-position-info_item .hero-position-info_number{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.hero-wrap .hero-position .hero-position-info .hero-position-info_item .hero-position-info_title{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #00000099;
+}
+.hero-wrap .hero-position .hero-position-info .vertical-line-one{
+    border: 1px solid #0000001A
+}
+.hero-wrap .hero-position .hero-position-info .vertical-line-two{
+    border: 1px solid #0000001A
+}
+/* RIGHT */
+.hero-wrap .hero-right{
+    background-color: bisque;
+}
+.hero-wrap .hero-right img{
+    height: 600px;
+    position: absolute;
+    bottom: 0;
+    right: 120px;
+    
+}
+@media only screen and (max-width: 767px){
+    .hero-wrap{
+        position: unset;
+    }
+    .hero-wrap .hero-right img{
+        position: unset;
+        bottom: unset;
+        width: 100%;
+        height: auto;
+    }
+}
+/* ============================Brands================================= */
+.brands{
+    padding-top: 44px;
+    padding-bottom: 44px;
+    background: #000000;
+}
+
+/* .brands .row-brands{
+
+} */
+.brands .row-brands p{    
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ============================Products================================= */
+.products .product{
+    background-color: aquamarine;
+    margin-top: 72px;
+}
+.products .product .product-title{
+    font-weight: 700;
+    font-size: 4.8rem;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.products .product .product-list{
+    margin-bottom: 36px;
+}
+.products .product .product-btn{
+    max-width: 218px;
+    height: 52px;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+}
+.products .product .line{
+    border: 1px solid #0000001A;
+    margin-bottom: 64px;
+}
+.products .product .btn-sell{
+    margin-bottom: 86px;
+}
+.products .product .product-list .item{
+    width: 23.79%;
+    margin-right: 20px;
+}
+.products .product .product-list .item .title{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 16px;
+}
+.products .product .product-list .item .star{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.products .product .product-list .item .star img:last-of-type{
+    margin-right: 15px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.products .product .product-list .item .star p{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.products .product .product-list .item .price{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.products .product .product-list .item .price p{
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.products .product .product-list .item .price-old{
+    color: #00000066;
+} 
+.products .product .product-list .item .price p:last-child{
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 58px;
+    height: 28px;
+    background: #FF33331A;
+    color: red;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 62px;
+    margin-right: 0;
+}
+/* ============================Styles================================= */
+.styles .box{
+    margin-top: 80px;
+    background: #F0F0F0;
+    padding-top: 70px;
+    padding-bottom: 76px;
+    border-radius: 40px;
+}
+.styles h1{
+    font-weight: 700;
+    font-size: 4.8rem;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.styles .box .box-content{
+    max-width: 1111px;
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    gap: 20px;
+    
+}
+/* ============================Customer================================= */
+.customer{
+    margin-top: 80px;
+}
+.customer .customer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.customer .customer-top h1{
+    font-weight: 700;
+    font-size: 4.8rem;
+}
+.customer .customer-top .vector{
+    display: flex;
+    align-items: flex-end;
+}
+/* review */
+.customer .customer-review{
+    
+}
+.customer .customer-review .carousel-cell{
+    width: 32.26%;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    border: 1px solid #0000001A;
+}
+.customer .customer-review .carousel-cell .item{
+    margin: 28px 32px 50.4px 32px;
+}
+.customer .customer-review .carousel-cell .item .row1{
+    margin-bottom: 15px;
+}
+.customer .customer-review .carousel-cell .item .row2{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;  
+    color: #000000;
+}
+.customer .customer-review .carousel-cell .item .row3{
+    font-weight: 400;
+    font-size: 1.6rem;  
+    color: #00000099;
+}
+
+
+
+
+
+
+

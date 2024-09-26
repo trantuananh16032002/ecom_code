@@ -1,0 +1,381 @@
+/* Satoshi */
+@font-face {
+    font-family: 'false';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'false';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/Satoshi-Italic.woff2') format('woff2'),
+        url('Satoshi/Satoshi-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/Satoshi-Light.woff2') format('woff2'),
+        url('Satoshi/Satoshi-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/Satoshi-LightItalic.woff2') format('woff2'),
+        url('Satoshi/Satoshi-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/Satoshi-Medium.woff2') format('woff2'),
+        url('Satoshi/Satoshi-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'false';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/Satoshi-Black.woff2') format('woff2'),
+        url('Satoshi/Satoshi-Black.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'false';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/Satoshi-Regular.woff2') format('woff2'),
+        url('Satoshi/Satoshi-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/Satoshi-BlackItalic.woff2') format('woff2'),
+        url('Satoshi/Satoshi-BlackItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/Satoshi-Bold.woff2') format('woff2'),
+        url('Satoshi/Satoshi-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'false';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'false';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/Satoshi-MediumItalic.woff2') format('woff2'),
+        url('Satoshi/Satoshi-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'false';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'false';
+    src: url('Satoshi/false.woff2') format('woff2'),
+        url('Satoshi/false.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi/Satoshi-BoldItalic.woff2') format('woff2'),
+        url('Satoshi/Satoshi-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+/* Integral */
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Demi';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFBoldRegular.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFBoldRegular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFBoldItalic.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFHeavyItalic.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFHeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFMediumRegular.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFMediumRegular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFHeavyRegular.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFHeavyRegular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Demi';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFDemiBoldItalic.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFDemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFExtraBoldItalic.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFMediumItalic.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFRegular.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('Integral/FONTSPRINGDEMO-IntegralCFItalic.woff2') format('woff2'),
+        url('Integral/FONTSPRINGDEMO-IntegralCFItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
