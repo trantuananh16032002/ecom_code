@@ -17,41 +17,18 @@
     <!-- CND flickity -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- LoadTemplateJS -->
+    <script src="./assets/js/load.js"></script>
+    <!-- fontaws -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- Banner -->
-    <div class="banner">
-        Sign up and get 20% off to your first order. <span>Sign Up Now</span>
-    </div>
     <!-- Header -->
-    <div class="header">
-        <div class="container">
-            <div class="navbar">
-                <!-- Logo -->
-                <div class="mega-menu">
-                    <img src="./assets/imgs/menu.svg" alt="" class="menu">
-                    <img src="./assets/imgs/logo.svg" alt="" class="logo">
-                </div>
-                <!-- navigation -->
-                <ul>
-                    <li><a href="">Shop <img src="./assets/imgs/vector.svg" alt=""></a></li>
-                    <li><a href="">On Sale</a></li>
-                    <li><a href="">New Arrivals</a></li>
-                    <li><a href="">Brands</a></li>
-                </ul>
-                <!-- search -->
-                <div class="search">
-                    <img src="./assets/imgs/search.svg" alt="">
-                    <input placeholder="Search for products...">
-                </div>
-                <div class="action">
-                    <img class="action-one" src="./assets/imgs/search.svg" alt="">
-                    <img class="action-two" src="./assets/imgs/category.svg" alt="">
-                    <img class="action-three" src="./assets/imgs/user.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
+    <header id="header"></header>
+    <script>
+        load("#header", "./template/header.html");
+    </script>
+
     <!-- Hero -->
     <div class="hero-wrap">
         <div class="container">
@@ -92,13 +69,18 @@
     <!-- Brands -->
     <div class="brands">
         <div class="container">
-            <div class="row row-brands">
+            <!-- <div class="row row-brands">
                 <div class="item col-xxl col-md-4 col-sm-4 col-4"><p>VERSACE</p></div>
                 <div class="item col-xxl col-md-4 col-sm-4 col-4"><p>ZARA</p></div>
                 <div class="item col-xxl col-md-4 col-sm-4 col-4"><p>GUCCCI</p></div>
                 <div class="item col-xxl col-md-6 col-sm-6 col-6"><p>PRADA</p></div>
                 <div class="item col-xxl col-md-6 col-sm-6 col-6"><p>Calvin Klein</p></div>
-            </div>
+            </div> -->
+            <img src="./assets/imgs/brand1.svg" alt="">
+            <img src="./assets/imgs/brand2.svg" alt="">
+            <img src="./assets/imgs/brand3.svg" alt="">
+            <img src="./assets/imgs/brand4.svg" alt="">
+            <img src="./assets/imgs/brand5.svg" alt="">
         </div>
     </div>
     <!-- Products new -->
@@ -124,7 +106,7 @@
                     </div>
                 </div>
                 <div class="carousel-cell item">
-                    <img src="./assets/imgs/product.svg" alt="">
+                    <img src="./assets/imgs/product2.svg" alt="">
                     <p class="title">T-shirt with Tape Details</p>
                     <div class="star">
                         <img src="./assets/imgs/star.svg" alt="">
@@ -141,7 +123,7 @@
                     </div>
                 </div>
                 <div class="carousel-cell item">
-                    <img src="./assets/imgs/product.svg" alt="">
+                    <img src="./assets/imgs/product3.svg" alt="">
                     <p class="title">T-shirt with Tape Details</p>
                     <div class="star">
                         <img src="./assets/imgs/star.svg" alt="">
@@ -158,7 +140,7 @@
                     </div>
                 </div>
                 <div class="carousel-cell item">
-                    <img src="./assets/imgs/product.svg" alt="">
+                    <img src="./assets/imgs/product4.svg" alt="">
                     <p class="title">T-shirt with Tape Details</p>
                     <div class="star">
                         <img src="./assets/imgs/star.svg" alt="">
@@ -186,7 +168,7 @@
             <h1 class="product-title">TOP SELLING</h1>
             <div class="product-list main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "prevNextButtons": false, "pageDots": false }'>
                 <div class="carousel-cell item">
-                    <img src="./assets/imgs/product.svg" alt="">
+                    <img src="./assets/imgs/product5.svg" alt="">
                     <p class="title">T-shirt with Tape Details</p>
                     <div class="star">
                         <img src="./assets/imgs/star.svg" alt="">
@@ -203,7 +185,7 @@
                     </div>
                 </div>
                 <div class="carousel-cell item">
-                    <img src="./assets/imgs/product.svg" alt="">
+                    <img src="./assets/imgs/product6.svg" alt="">
                     <p class="title">T-shirt with Tape Details</p>
                     <div class="star">
                         <img src="./assets/imgs/star.svg" alt="">
@@ -220,7 +202,7 @@
                     </div>
                 </div>
                 <div class="carousel-cell item">
-                    <img src="./assets/imgs/product.svg" alt="">
+                    <img src="./assets/imgs/product7.svg" alt="">
                     <p class="title">T-shirt with Tape Details</p>
                     <div class="star">
                         <img src="./assets/imgs/star.svg" alt="">
@@ -237,7 +219,7 @@
                     </div>
                 </div>
                 <div class="carousel-cell item">
-                    <img src="./assets/imgs/product.svg" alt="">
+                    <img src="./assets/imgs/product8.svg" alt="">
                     <p class="title">T-shirt with Tape Details</p>
                     <div class="star">
                         <img src="./assets/imgs/star.svg" alt="">
@@ -386,6 +368,13 @@
             </div>
         </div>
     </div>
+    
+    <!-- Footer -->
+    <footer id="footer"></footer>
+    <script>
+        load("#footer", "./template/footer.html");
+    </script>
+    <!-- JS -->
     <script src="./assets/js/index.js"></script>
 </body>
 </html>
