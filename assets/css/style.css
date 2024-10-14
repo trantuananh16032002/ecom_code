@@ -177,7 +177,6 @@ header .nav .dropdown .dropdown_inner .top-menu .top-menu__main .menu-column .me
 }
 .header .navbar .action{
     /* margin-left: auto; */
-    
 }
 .header .navbar .action img{
     width: 24px;
@@ -185,6 +184,56 @@ header .nav .dropdown .dropdown_inner .top-menu .top-menu__main .menu-column .me
 }
 .header .navbar .action img{
     margin-left: 10px;
+}
+/* OFFCANVAS */
+.header .navbar .offcanvas_three .user-options{
+    /* background-color: antiquewhite; */
+    position: relative;
+    margin-bottom: 20px;
+}
+.header .navbar .offcanvas_three .user-options .option{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.header .navbar .offcanvas_three .user-options .underline{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%; /* Đặt width bằng 50% để dấu gạch chân phủ dưới một lựa chọn */
+    height: 3px;
+    background-color: #d2d1d6;
+    transition: left 0.3s ease-in-out; /* Thêm hiệu ứng chuyển động */
+}
+.header .navbar .offcanvas_three .active{
+    background-color: antiquewhite;
+}
+.header .navbar .offcanvas_three .user-options.active::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: transparent;
+    
+}
+.header .navbar .offcanvas_three .form-section .form-section__row{
+    margin-bottom: 10px;
+}
+.header .navbar .offcanvas_three .form-section label{
+    width: 30%;
+}
+.header .navbar .offcanvas_three .form-section input{
+    width: 68%;
+    border-radius: 5px;
+    background-color: #f0eff5;
+    border: none;
+}
+.header .navbar .offcanvas_three .form-section button{
+    width: 100%;
+    border: none;
+    padding: 10px;
 }
 .header .navbar ul li{
     margin-right: 24px;

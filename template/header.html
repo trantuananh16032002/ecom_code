@@ -742,7 +742,7 @@
                 <img class="action-three" src="./assets/imgs/user.svg" alt="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUser">
             </div>
             <!-- Offcanvas for action-two -->
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCategory" aria-labelledby="offcanvasCategoryLabel">
+            <div class="offcanvas offcanvas-end offcanvas_two" tabindex="-1" id="offcanvasCategory" aria-labelledby="offcanvasCategoryLabel">
                 <div class="offcanvas-header">
                     <!-- <h5 class="offcanvas-title" id="offcanvasCategoryLabel">Categories</h5> -->
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -753,45 +753,46 @@
             </div>
   
             <!-- Offcanvas for action-three -->
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasUser" aria-labelledby="offcanvasUserLabel">
+            <div class="offcanvas offcanvas-end offcanvas_three" tabindex="-1" id="offcanvasUser" aria-labelledby="offcanvasUserLabel">
                 <div class="offcanvas-header">
                     <!-- <h5 class="offcanvas-title" id="offcanvasUserLabel">User Information</h5> -->
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <!-- Lựa chọn đăng nhập và đăng ký -->
-                    <div class="user-options">
-                        <div id="loginOption" class="option" style="cursor: pointer;">Đăng nhập</div>
-                        <div id="registerOption" class="option" style="cursor: pointer;">Đăng ký</div>
+                    <!-- Option -->
+                    <div class="container">
+                        <div class="user-options row">
+                            <div id="loginOption" class="option active col-6" style="cursor: pointer;">LOGIN</div>
+                            <div id="registerOption" class="option col-6" style="cursor: pointer;">REGISTER</div>
+                            <div id="underline" class="underline "></div>
+                        </div>
                     </div>
-                    <!-- Form đăng nhập -->
-                    <div id="loginForm" class="form-section" style="display: none;">
-                        <h5>Form Đăng nhập</h5>
+                    <!-- Form Login -->
+                    <div id="loginForm" class="form-section" style="">
                         <form>
-                        <div class="mb-3">
-                            <label for="loginEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="loginEmail">
-                        </div>
-                        <div class="mb-3">
-                            <label for="loginPassword" class="form-label">Mật khẩu</label>
-                            <input type="password" class="form-control" id="loginPassword">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                            <div class="form-section__row">
+                                <label for="loginEmail" class="">Email</label>
+                                <input type="email" class="" id="loginEmail">
+                            </div>
+                            <div class="form-section__row">
+                                <label for="loginPassword" class="">Mật khẩu</label>
+                                <input type="password" class="" id="loginPassword">
+                            </div>
+                            <button type="submit" class="btn_login">Đăng nhập</button>
                         </form>
                     </div>
-                    <!-- Form đăng ký -->
+                    <!-- Form Register -->
                     <div id="registerForm" class="form-section" style="display: none;">
-                        <h5>Form Đăng ký</h5>
                         <form>
-                        <div class="mb-3">
-                            <label for="registerEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="registerEmail">
-                        </div>
-                        <div class="mb-3">
-                            <label for="registerPassword" class="form-label">Mật khẩu</label>
-                            <input type="password" class="form-control" id="registerPassword">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Đăng ký</button>
+                            <div class="form-section__row">
+                                <label for="registerEmail" class="">Email</label>
+                                <input type="email" class="" id="registerEmail">
+                            </div>
+                            <div class="form-section__row">
+                                <label for="registerPassword" class="">Mật khẩu</label>
+                                <input type="password" class="" id="registerPassword">
+                            </div>
+                            <button type="submit" class="btn_res">Đăng ký</button>
                         </form>
                     </div>
                 </div>
