@@ -269,7 +269,7 @@
     font-display: swap;
 }
 /* Integral */
-@font-face {
+/* @font-face {
     font-family: 'FONTSPRING DEMO - Integral CF Demi';
     src: url('Integral/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.woff2') format('woff2'),
         url('Integral/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.woff') format('woff');
@@ -375,7 +375,7 @@
     font-weight: normal;
     font-style: italic;
     font-display: swap;
-}
+} */
 
 
 
