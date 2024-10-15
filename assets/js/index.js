@@ -11,29 +11,31 @@ document.querySelector('.vector-right').addEventListener('click', function() {
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
+window.onload = function() {
     const shopHeading = document.getElementById('shopHeading');
     const shopItems = document.getElementById('shopItems');
     const icon = document.getElementById('shopIcon');
 
-    shopHeading.addEventListener('click', function() {
-        if (shopItems.style.display === 'none' || shopItems.style.display === '') {
-            // Hiển thị danh sách và thay đổi icon
-            shopItems.style.display = 'block';
-            icon.classList.remove('fa-plus');
-            icon.classList.add('fa-xmark');
-            icon.classList.add('rotate');
-        } else {
-            // Ẩn danh sách và thay đổi lại icon
-            shopItems.style.display = 'none';
-            icon.classList.remove('fa-xmark');
-            icon.classList.add('fa-plus');
-            icon.classList.remove('rotate');
-        }
-    });
-});
+    if (shopHeading) {
+        shopHeading.addEventListener('click', function() {
+            if (shopItems.style.display === 'none' || shopItems.style.display === '') {
+                shopItems.style.display = 'block';
+                icon.classList.remove('fa-plus');
+                icon.classList.add('fa-xmark');
+                icon.classList.add('rotate');
+            } else {
+                shopItems.style.display = 'none';
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-plus');
+                icon.classList.remove('rotate');
+            }
+        });
+    }
+};
+
 
 // Action
+
 document.addEventListener("DOMContentLoaded", function() {
     const loginOption = document.getElementById('loginOption');
     const registerOption = document.getElementById('registerOption');
