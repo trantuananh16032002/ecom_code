@@ -31,12 +31,7 @@ window.onload = function() {
             }
         });
     }
-};
-
-
-// Action
-
-document.addEventListener("DOMContentLoaded", function() {
+    // Action3
     const loginOption = document.getElementById('loginOption');
     const registerOption = document.getElementById('registerOption');
     const loginForm = document.getElementById('loginForm');
@@ -58,7 +53,34 @@ document.addEventListener("DOMContentLoaded", function() {
         loginOption.classList.remove('active');
         underline.style.left = '50%';
     });
-});
+    // Action2
+    const optionOne = document.getElementById('optionOne')
+    const optionTwo = document.getElementById('optionTwo')
+    const optionThree = document.getElementById('optionThree')
+    const optionFour = document.getElementById('optionFour')
+    const unline = document.getElementById('unline')
+    optionOne.addEventListener('click', function(){
+        unline.style.left = '0';
+    })
+    optionTwo.addEventListener('click', function(){
+        unline.style.left = '25%';
+    })
+    optionThree.addEventListener('click', function(){
+        unline.style.left = '50%';
+    })
+    optionFour.addEventListener('click', function(){
+        unline.style.left = '75%';
+    })
+    const options = document.querySelectorAll('.cate-options .option');
+    options.forEach(option => {
+        option.addEventListener('click', function() {
+            options.forEach(opt => opt.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+
+};
+
 
 
 
